@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+body{
+    text-align: center;
+    background-color: rgb(228, 221, 213);
+    background-image: url("bi1.jpg");
+}
+
+.heading{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: 25px;
+}
+.heading h1{
+    font-size: 34px;
+}
+.imgbig{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.imgsmall{
+    height: 100%;
+    width: 800px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.img1,.img2,.img3{
+    width: 130px;
+    height: 130px;
+    background-color: rgb(124, 61, 109);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.img1:hover{
+    border:3px solid rgb(175, 155, 155)
+}
+.img2:hover{
+    border:1px solid rgb(98, 83, 83)
+
+}
+.img3:hover{
+border:1px solid rgb(175, 155, 155)
+}
+
+.img1{
+    background-image: url("rock2.png");
+    background-size: cover;
+}
+.img2{
+    background-image: url("paper2.png");
+    background-size: cover;
+}
+.img3{
+    background-image: url("scissor2.png");
+    background-size: cover;
+}
+.outerscoreboard{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+.user{
+    height: 100px;
+    width: 150px;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 40px;
+}
+.computer{
+    height: 100%;
+    width: 150px;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 40px;
+}
+.user #score1{
+    font-size: 30px;
+}
+.computer #score2{
+    font-size: 30px;
+}
+
+.status{
+  height: 30px;
+  width: 190px;
+  background-color: rgb(163, 6, 103);
+  margin-top: 20px;
+  font-size: 16px;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
